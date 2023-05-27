@@ -1,0 +1,20 @@
+This project is a flask project
+you need to import the following to run this project on your device:
+import datetime as dt
+from EAR_calculator import *
+from imutils import face_utils
+from imutils.video import VideoStream
+import matplotlib.pyplot as plt
+from matplotlib import style
+import imutils
+import dlib
+import time
+import argparse
+import cv2
+from playsound import playsound
+import os
+import pandas as pd
+from flask import Flask, redirect, url_for, render_template, request
+import os
+from index import d_dtcn
+
